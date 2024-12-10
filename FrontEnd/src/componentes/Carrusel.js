@@ -15,7 +15,7 @@ const Carrusel = () => {
         />
         <Carousel.Caption>
           <h5>Renueva tu Estilo con Nuestras Ofertas</h5>
-          <p>"Explora lo último en moda y aprovecha nuestras promociones exclusivas en toda la tienda."
+          <p>"Explora lo último en zapatillas a la moda y aprovecha nuestras promociones exclusivas en toda la tienda."
 
 </p>
         </Carousel.Caption>
@@ -29,7 +29,7 @@ const Carrusel = () => {
 
         />
         <Carousel.Caption>
-          <h5>Lo Mejor de la Moda, A Tu Alcance</h5>
+          <h5>Lo Mejor de lo mejor, A Tu Alcance</h5>
           <p>Desde lo más trendy hasta lo clásico, encuentra todo lo que necesitas para cada ocasión, ¡con precios que te encantarán</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -42,9 +42,9 @@ const Carrusel = () => {
 
         />
         <Carousel.Caption>
-          <h5>Vistiendo Tu Mundo con Estilo</h5>
+          <h5>Caminando con Estilo</h5>
           <p>
-          Desde ropa casual hasta elegantes atuendos, todo lo que buscas para tu guardarropa está aquí. ¡Compra hoy y ahorra!
+          Desde zapatillas casuales hasta zapatillas deportivas, todo lo que buscas para tu está aquí. ¡Compra hoy y ahorra!
           </p>
         </Carousel.Caption>
       </Carousel.Item>

@@ -6,3 +6,14 @@ h5, p{
 img{
 
 }
+.carousel-caption h5, 
+.carousel-caption p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra */
+  color: white; /* Asegúrate de que el texto sea claro */
+}
+
+
+  .carousel-item img {
+    filter: brightness(80%); /* Reduce el brillo */
+  }
+    

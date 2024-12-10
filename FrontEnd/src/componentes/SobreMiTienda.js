@@ -9,7 +9,7 @@ const SobreMiTienda = () => {
         <div className="col-md-6">
           <div className="ratio ratio-16x9">
             <video
-              src="./video/anuncio.mov" // Reemplaza "tu-video-id" con el ID de tu video
+              src="./video/anuncio1.mp4" // Reemplaza "tu-video-id" con el ID de tu video
               title="Sobre Mi Tienda"
               controls
               className="rounded shadow w-100"
@@ -19,9 +19,9 @@ const SobreMiTienda = () => {
 
         {/* Texto */}
         <div className="col-md-6">
-          <h2 className="fw-bold mb-3">Bienvenidos a MiTienda</h2>
+          <h2 className="fw-bold mb-3">Bienvenidos a Pasos Infinity</h2>
           <p className="text-muted">
-            En MiTienda, ofrecemos productos de alta calidad para toda la familia. Nuestro compromiso es brindar la mejor experiencia de compra posible, con un enfoque en el servicio al cliente y la innovación.
+            En Pasos Infinity, ofrecemos productos de alta calidad para toda la familia. Nuestro compromiso es brindar la mejor experiencia de compra posible, con un enfoque en el servicio al cliente y la innovación.
           </p>
           <p className="text-muted">
             Explora nuestras categorías para hombres, mujeres, niños y niñas, y descubre lo mejor en moda y estilo. ¡Gracias por elegirnos!

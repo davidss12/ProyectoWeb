@@ -4,14 +4,14 @@ import { Card, Button, Row, Col } from 'react-bootstrap';
 const Mujeres = () => {
   // Ejemplo de 20 productos para mostrar
   const productos = [
-    { id: 1, nombre: 'Zapatillas Running Mujer', descripcion: 'Ideales para correr con estilo, cómodas y ligeras.', imagen: 'https://via.placeholder.com/150', precio: 'S/199.99' },
-    { id: 2, nombre: 'Zapatillas Deportivas Mujer', descripcion: 'Diseño dinámico para entrenamientos intensos, con soporte y flexibilidad.', imagen: 'https://via.placeholder.com/150', precio: 'S/149.99' },
-    { id: 3, nombre: 'Zapatillas Casual Mujer', descripcion: 'Diseño cómodo y moderno para el día a día.', imagen: 'https://via.placeholder.com/150', precio: 'S/129.99' },
-    { id: 4, nombre: 'Zapatillas de Cuero Mujer', descripcion: 'Elegantes y resistentes para el uso diario.', imagen: 'https://via.placeholder.com/150', precio: 'S/179.99' },
-    { id: 5, nombre: 'Zapatillas de Trail Mujer', descripcion: 'Perfectas para correr en terrenos irregulares y senderos.', imagen: 'https://via.placeholder.com/150', precio: 'S/219.99' },
-    { id: 6, nombre: 'Zapatillas de Baloncesto Mujer', descripcion: 'Para deportes intensos, con soporte y amortiguación.', imagen: 'https://via.placeholder.com/150', precio: 'S/249.99' },
-    { id: 7, nombre: 'Zapatillas de Fútbol Mujer', descripcion: 'Para mejorar tu rendimiento en el campo de fútbol.', imagen: 'https://via.placeholder.com/150', precio: 'S/229.99' },
-    { id: 8, nombre: 'Zapatillas Running Pro Mujer', descripcion: 'Para corredoras exigentes, con máxima comodidad y rendimiento.', imagen: 'https://via.placeholder.com/150', precio: 'S/299.99' },
+    { id: 1, nombre: 'Zapatillas Running Mujer', descripcion: 'Ideales para correr con estilo, cómodas y ligeras.', imagen: './img/21.jpg', precio: 'S/199.99' },
+    { id: 2, nombre: 'Zapatillas Deportivas Mujer', descripcion: 'Diseño dinámico para entrenamientos intensos, con soporte y flexibilidad.', imagen: './img/22.jpg', precio: 'S/149.99' },
+    { id: 3, nombre: 'Zapatillas Casual Mujer', descripcion: 'Diseño cómodo y moderno para el día a día.', imagen: './img/23.jpg', precio: 'S/129.99' },
+    { id: 4, nombre: 'Zapatillas de Cuero Mujer', descripcion: 'Elegantes y resistentes para el uso diario.', imagen: './img/24.jpg', precio: 'S/179.99' },
+    { id: 5, nombre: 'Zapatillas de Trail Mujer', descripcion: 'Perfectas para correr en terrenos irregulares y senderos.', imagen: './img/25.jpg', precio: 'S/219.99' },
+    { id: 6, nombre: 'Zapatillas de Baloncesto Mujer', descripcion: 'Para deportes intensos, con soporte y amortiguación.', imagen: './img/26.jpg', precio: 'S/249.99' },
+    { id: 7, nombre: 'Zapatillas de Fútbol Mujer', descripcion: 'Para mejorar tu rendimiento en el campo de fútbol.', imagen: './img/27.jpg', precio: 'S/229.99' },
+    { id: 8, nombre: 'Zapatillas Running Pro Mujer', descripcion: 'Para corredoras exigentes, con máxima comodidad y rendimiento.', imagen: './img/28.jpg', precio: 'S/299.99' },
     { id: 9, nombre: 'Zapatillas con Tecnología Air Mujer', descripcion: 'Tecnología de aire para mayor confort en cada paso.', imagen: 'https://via.placeholder.com/150', precio: 'S/249.99' },
     { id: 10, nombre: 'Zapatillas Deportivas con Soporte Mujer', descripcion: 'Para entrenamientos largos y confort durante todo el día.', imagen: 'https://via.placeholder.com/150', precio: 'S/159.99' },
     { id: 11, nombre: 'Zapatillas Urbanas Mujer', descripcion: 'Estilo moderno y urbano, perfectas para todas tus actividades.', imagen: 'https://via.placeholder.com/150', precio: 'S/139.99' },

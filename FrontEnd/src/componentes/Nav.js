@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="container-fluid">
         {/* Logo con estilo personalizado */}
         <Link className="navbar-brand fw-bold text-uppercase" to="/" style={{ color: '#ffc107', fontSize: '30px' }}>
-          Tienda YTS
+        Pasos Infinity
         </Link>
         {/* Botón para móviles */}
         <button
@@ -35,11 +35,6 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link text-white px-4 py-3 custom-hover" to="/registro">  {/* Cambié la ruta aquí */}
                 Registrate
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white px-4 py-3 custom-hover" to="/contacto">
-                Contacto
               </Link>
             </li>
           </ul>

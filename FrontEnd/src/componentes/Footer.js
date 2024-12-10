@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         <div className="copy-right">
-          <p>&copy; {new Date().getFullYear()} TodoShop. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Pasos Infinity. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

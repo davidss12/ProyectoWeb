@@ -46,6 +46,25 @@ app.post('/api/registro', (req, res) => {
   });
 });
 
+// Ruta para registrar una compra
+app.post('/api/compras', (req, res) => {
+  const { productoId, cantidad } = req.body;
+
+  if (!productoId || !cantidad) {
+    return res.status(400).json({ success: false, message: 'Faltan campos obligatorios' });
+  }
+
+  const sql = 'INSERT INTO compras (producto_id, cantidad) VALUES (?, ?)';
+  db.query(sql, [productoId, cantidad], (err, result) => {
+    if (err) {
+      console.error('Error al registrar la compra:', err);
+      return res.status(500).json({ success: false, message: 'Error al registrar la compra' });
+    }
+    res.status(200).json({ success: true, message: 'Compra registrada con éxito', compraId: result.insertId });
+  });
+});
+
+// Inicia el servidor
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
