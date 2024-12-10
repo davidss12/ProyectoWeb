@@ -61,7 +61,7 @@ const Reseñas = () => {
       
       <div className="row">
         <div className="col-md-12">
-          {/* Lista de Reseñas */}
+          {}
           <div className="row">
             {reseñas.map((reseña) => (
               <div key={reseña.id} className="col-md-4 mb-4">
@@ -78,7 +78,7 @@ const Reseñas = () => {
         </div>
       </div>
 
-      {/* Formulario para agregar nueva reseña */}
+      {}
       <div className="row mt-5">
         <div className="col-md-12">
           <h4>Deja tu Reseña</h4>

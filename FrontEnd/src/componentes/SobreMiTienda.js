@@ -9,7 +9,7 @@ const SobreMiTienda = () => {
         <div className="col-md-6">
           <div className="ratio ratio-16x9">
             <video
-              src="./video/anuncio1.mp4" // Reemplaza "tu-video-id" con el ID de tu video
+              src="./video/anuncio1.mp4" 
               title="Sobre Mi Tienda"
               controls
               className="rounded shadow w-100"

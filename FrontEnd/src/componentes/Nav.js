@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';  // Importamos el componente Link de react-router-dom
-import './estilo/Nav.css';  // Importamos el archivo de estilos CSS
+import { Link } from 'react-router-dom';  
+import './estilo/Nav.css';  
 
 const Nav = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios'; // Usaremos axios para hacer las peticiones HTTP
+import axios from 'axios'; 
 
 const Registro = () => {
   const [nombre, setNombre] = useState('');
@@ -7,18 +7,15 @@ const Registro = () => {
   const [contrasena, setContrasena] = useState('');
   const [mensaje, setMensaje] = useState('');
 
-  // Función que maneja el envío del formulario
   const manejarEnvio = async (e) => {
-    e.preventDefault(); // Evita la recarga de la página
+    e.preventDefault();
 
-    // Validación simple
     if (!nombre || !correo || !contrasena) {
       setMensaje('Por favor, completa todos los campos.');
       return;
     }
 
     try {
-      // Realiza una petición POST a tu backend para registrar el usuario
       const response = await axios.post('http://localhost:5000/api/registro', {
         nombre,
         correo,

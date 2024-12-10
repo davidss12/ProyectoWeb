@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './estilo/Categorias.css'; // Opcional: para estilos personalizados
+import './estilo/Categorias.css'; 
 
 const Categorias = () => {
   return (

@@ -8,9 +8,8 @@ const MapaUbicacion = () => {
   const zoom = 13;
 
   useEffect(() => {
-    // Este hook asegura que el mapa solo se inicialice una vez al montar el componente
     return () => {
-      // Si hay alguna limpieza que hacer, se puede hacer aquí
+      
     };
   }, []);
 
