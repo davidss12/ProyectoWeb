@@ -1,0 +1,14 @@
+/* Estilo de animación para el efecto de hover */
+
+.custom-hover {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+    font-size: 17px;
+    border-bottom: 4px solid transparent; /* Inicialmente sin borde visible */
+  }
+  
+  .custom-hover:hover {
+    transform: scale(1.23); /* Escala al 110% cuando el mouse está sobre el elemento */
+    border-bottom: 4px solid #ffc107; /* Muestra un borde inferior amarillo */
+    color: #ffc107; /* Cambia el color del texto al amarillo */
+  }
+  
